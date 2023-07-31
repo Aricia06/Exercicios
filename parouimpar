@@ -1,0 +1,19 @@
+Algoritmo "par ou impar"
+
+
+Var
+
+numero:inteiro
+
+Inicio
+
+  Escreva ("escreva um numero")
+  leia (numero)
+  se numero mod 2 = 0 entao
+           escreva("O número ", numero, " é par!")
+       senao
+           escreva("O número ", numero, " é ímpar!")
+       fimse
+
+
+Fimalgoritmo

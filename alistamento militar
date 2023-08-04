@@ -1,0 +1,28 @@
+Algoritmo "alistamento militar"
+
+Var
+
+anonascimento,anoatual,idade,anosrestantes,anospassados:inteiro
+
+Inicio
+
+escreva ("digite o ano de nascimento do rapaz")
+leia (anonascimento)
+
+anoatual<-2023//voce pode alterar para o ano atual caso esteja em um ano diferente
+
+idade <-anoatual- anonascimento
+
+se (idade <18) entao
+anosrestantes<- 18- idade
+
+escreva("faltam",anosrestantes,"anos para o alistamento militar.")
+senao se (idade>18)entao
+anospassados<- idade-18
+escreva("ja se passaram",anospassados,"anos do alistamento militar.")
+senao
+escreva ("voce deve se alistar este ano!)
+fimse
+
+
+Fimalgoritmo

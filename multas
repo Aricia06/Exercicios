@@ -1,0 +1,20 @@
+Algoritmo "multas"
+
+Var
+velocidade,km_acima, valor_multa:real
+
+
+Inicio
+ escreva("digite a velocidade de carro em km/h:")
+ leia (velocidade)
+ 
+ se velocidade >80 entao
+ km_acima<- velocidade -80
+ valor_multa<- km_acima*5
+ 
+ escreva ("voce foi multado!valor da multa: R$", valor_multa)
+ senao
+ escreva ("velocidade dentro do limite permitido.")
+ fimse
+
+Fimalgoritmo
